@@ -1,0 +1,71 @@
+OpenSchool_LS_2
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 8).
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0      23    3.044405e-01    0.000e+00    1.277e-01
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 8).
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+    1      57    3.036215e-01    0.000e+00    0.000e+00    1.354e-02
+
+<a href = "matlab: helpview('optim','local_min_found','CSHelpWindow');">Local minimum found that satisfies the constraints</a>.
+
+Optimization completed because the objective function is non-decreasing in 
+<a href = "matlab: helpview('optim','feasible_directions','CSHelpWindow');">feasible directions</a>, to within the value of the <a href = "matlab: helpview('optim','optimality_tolerance_msgcsh','CSHelpWindow');">optimality tolerance</a>,
+and constraints are satisfied to within the value of the <a href = "matlab: helpview('optim','constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg({'optimlib:sqpLineSearch:Exit1basic'},{'optimlib:sqpLineSearch:Exit1detailed','0.000000e+00','1.000000e-04','0.000000e+00','1.000000e-06'},true,true);;">stopping criteria details</a>>
+
+par1 =
+
+  Columns 1 through 10
+
+   8.4999e-01   6.4157e-01   9.6996e-01   2.0545e-01   2.5710e-01   8.5111e-03   4.9989e-03   6.5118e+00   4.8930e+00   6.5002e+00
+
+  Columns 11 through 20
+
+   7.8002e+00   5.6008e+00   8.1500e+00   4.3531e+00   2.8005e+00   4.2630e+00   5.7452e+00   3.5988e+00   6.3939e+00   6.9998e-03
+
+  Columns 21 through 22
+
+   3.2006e-02   8.5004e-02
+
+
+fval =
+
+   3.0362e-01
+
+
+exitflag =
+
+     1
+
+Elapsed time is 32066.044958 seconds.
+School_noWorkPlaceFit_0106
+
+NMSE =
+
+   9.9656e-01
+
+
+NMSE_oct4 =
+
+   9.9656e-01
+
+
+NMSE_D =
+
+   8.9226e-01
+
+
+NMSE_total =
+
+   9.9649e-01
+
+Elapsed time is 2372.458657 seconds.
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
