@@ -1,0 +1,54 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 30).
+[Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more
+information, click <a href="matlab:opengl('problems')">here</a>.] 
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0      23    3.603598e-01    0.000e+00    2.182e+02
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 30).
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+    1      55    3.056461e-01    0.000e+00    0.000e+00    6.446e-02
+
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+
+
+par1 =
+
+  Columns 1 through 11
+
+    0.8495    0.6380    0.9698    0.2058    0.2568    0.0087    0.0050    6.5541    4.9017    6.4999    7.8199
+
+  Columns 12 through 22
+
+    5.6051    8.1482    4.3741    2.8074    4.2642    5.7516    3.6024    6.3936    0.0070    0.0322    0.0849
+
+
+fval =
+
+    0.3056
+
+
+exitflag =
+
+     1
+
+Elapsed time is 65096.909314 seconds.
+[Warning: Unable to play audio because no audio outputs were found.] 
+[> In audioplayer/hasNoAudioHardware (line 640)
+  In audioplayer/initialize (line 268)
+  In audioplayer (line 231)
+  In sound (line 71)
+  In OpenSchool_LS_2 (line 18)] 
+[Warning: Unable to play audio because no audio outputs were found.] 
+[> In audioplayer/hasNoAudioHardware (line 640)
+  In audioplayer/play (line 28)
+  In sound (line 74)
+  In OpenSchool_LS_2 (line 18)] 
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
