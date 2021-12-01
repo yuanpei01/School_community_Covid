@@ -35,7 +35,7 @@ N_plot=Num_fit;
 N_plot2=Num_fit;
 
 figure(1);clf
-% subplot(1,2,1)
+subplot(1,2,1)
 X = categorical({'2 weeks','4 weeks','6 weeks','8 weeks'});
 X = reordercats(X,{'2 weeks','4 weeks','6 weeks','8 weeks'});
 b=bar(X,Ia_perc)
@@ -70,8 +70,8 @@ set(gca, 'Box', 'off', 'TickDir', 'out', 'TickLength', [.02 .02], ...
     'XMinorTick', 'on', 'YMinorTick', 'on', 'YGrid', 'off', ...
     'XColor', [.3 .3 .3], 'YColor', [.3 .3 .3], ...
     'LineWidth', 1)
-figure(2);clf
-% subplot(1,2,2)
+% figure(2);clf
+subplot(1,2,2)
 X = categorical({'2 weeks','4 weeks','6 weeks','8 weeks'});
 X = reordercats(X,{'2 weeks','4 weeks','6 weeks','8 weeks'});
 b=bar(X,Ic_perc)
@@ -107,5 +107,5 @@ set(gca, 'Box', 'off', 'TickDir', 'out', 'TickLength', [.02 .02], ...
     'XMinorTick', 'on', 'YMinorTick', 'on', 'YGrid', 'off', ...
     'XColor', [.3 .3 .3], 'YColor', [.3 .3 .3], ...
     'LineWidth', 1)
-% print('-f1','-djpeg','-r600','./School_plot_revision/School_Fig1.jpeg')
-% saveas(gcf,'./School_plot_revision/School_Fig1.fig')
+% print('-f1','-djpeg','-r600','./School_plot_revision/Fig2.jpeg')
+% saveas(gcf,'./School_plot_revision/School_Fig2.fig')

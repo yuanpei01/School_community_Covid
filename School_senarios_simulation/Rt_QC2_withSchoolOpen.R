@@ -16,10 +16,10 @@ Tor.date<-read.csv("Toronto_date_1102.csv", header=T)
 Tor.date.name<-Tor.date$Date
 
 # inpute matlab data
-I_new_2<-readMat("QC2_withSchoolOpen_ga.mat")
-I_new_3<-readMat("QC2_withSchoolOpen_gc.mat")
-#I_new_2<-readMat("QC2_withSchoolClose_ga.mat")
-#I_new_3<-readMat("QC2_withSchoolClose_gc.mat")
+#I_new_2<-readMat("QC2_withSchoolOpen_ga.mat")
+#I_new_3<-readMat("QC2_withSchoolOpen_gc.mat")
+I_new_2<-readMat("QC2_withSchoolClose_ga.mat")
+I_new_3<-readMat("QC2_withSchoolClose_gc.mat")
 
 R0_2.1_results<-vector()
 Num_for2<-length(I_new_2$new.infection)
@@ -93,7 +93,7 @@ fig3.1 <- plot_ly(
 
 fig<-subplot(fig2.1,fig3.1)
 fig
-#(R0_2.1,file="Rt_QC2_withSchoolOpen_ga.csv")
+#write.csv(R0_2.1,file="Rt_QC2_withSchoolOpen_ga.csv")
 #write.csv(R0_3.1,file="Rt_QC2_withSchoolOpen_gc.csv")
-#write.csv(R0_2.1,file="Rt_QC2_withSchoolClose_ga.csv")
-#write.csv(R0_3.1,file="Rt_QC2_withSchoolClose_gc.csv")
+write.csv(R0_2.1,file="Rt_QC2_withSchoolClose_ga.csv")
+write.csv(R0_3.1,file="Rt_QC2_withSchoolClose_gc.csv")

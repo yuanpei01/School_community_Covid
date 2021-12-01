@@ -100,8 +100,8 @@ end
 beta_sc=0.5*beta_ga;
 
 g=exppdf(t-T1,muT);
-%gq=(Gq*p_c*q_h*Nh*g)/Sqc;
-gq=(Gq*g);
+gq=(Gq*p_c*q_h*Nh*g)/Sqc;
+
 c_sc=corh*attendR*exp(-mu_c*(1-(Ssc+Esc+Asc+Isc1+Isc2)/(Sgc+Egc+Agc+Igc1+Igc2)));
 % c_sc=corh*exp(-mu_c*(1-(Ssc+Esc+Asc+Isc1+Isc2)/(Sgc+Egc+Agc+Igc1+Igc2+Sqc)));
 % c_ga=6;
@@ -440,8 +440,8 @@ elseif t> T1 && schoolOpen==1
       (1-a)/tau1*Egc-gamma_a*Agc;
       a/tau1*Egc-1/tau2*Igc1;
       1/tau2*Igc1-theta_hc*Igc2-theta_i*Igc2-gamma_m*Igc2-q_g2*Igc2;
-      -beta_sc*c_sc*Ssc*(Asc+Isc1+Isc2)/(Ssc+Esc+Asc+Isc1+Isc2);
-      beta_sc*c_sc*Ssc*(Asc+Isc1+Isc2)/(Ssc+Esc+Asc+Isc1+Isc2)-1/tau1*Esc;
+      -beta_sc*c_sc*Ssc*(Asc+Isc1)/(Ssc+Esc+Asc+Isc1+Isc2);
+      beta_sc*c_sc*Ssc*(Asc+Isc1)/(Ssc+Esc+Asc+Isc1+Isc2)-1/tau1*Esc;
       (1-a)/tau1*Esc-gamma_a*Asc;
       a/tau1*Esc-1/tau2*Isc1;
       1/tau2*Isc1-q_sc*Isc2;

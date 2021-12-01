@@ -17,8 +17,8 @@ Tor.date.name<-Tor.date$Date
 
 # inpute matlab data
 # With School open or close
-I_new_2<-readMat("QC2_withSchoolOpen_ga.mat")
-I_new_3<-readMat("QC2_withSchoolOpen_gc.mat")
+I_new_2<-readMat("BC2_withSchoolOpen_ga.mat")
+I_new_3<-readMat("BC2_withSchoolOpen_gc.mat")
 #I_new_2<-readMat("BC2_withSchoolClose_ga.mat")
 #I_new_3<-readMat("BC2_withSchoolClose_gc.mat")
 R0_2.1_results<-vector()
