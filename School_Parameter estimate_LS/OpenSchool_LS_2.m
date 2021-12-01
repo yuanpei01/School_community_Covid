@@ -3,7 +3,7 @@
 tic
 load('LS_para_seting.mat')
 %% parameters need to estimated
-diary log_0418.txt
+diary log_1115.txt
 %% fminsearch 
 %  options=optimset('Display','iter-detailed','MaxIter',100,'MaxFunEvals',100,'PlotFcns','optimplotfval');
 %[par1, fval,exitflag,output]=fminsearch(@NCoVGTA_Household_openSchool_ss3,params_est,options)
