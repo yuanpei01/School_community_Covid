@@ -440,8 +440,8 @@ elseif t> T1 && schoolOpen==1
       (1-a)/tau1*Egc-gamma_a*Agc;
       a/tau1*Egc-1/tau2*Igc1;
       1/tau2*Igc1-theta_hc*Igc2-theta_i*Igc2-gamma_m*Igc2-q_g2*Igc2;
-      -beta_sc*c_sc*Ssc*(Asc+Isc1+Isc2)/(Ssc+Esc+Asc+Isc1+Isc2);
-      beta_sc*c_sc*Ssc*(Asc+Isc1+Isc2)/(Ssc+Esc+Asc+Isc1+Isc2)-1/tau1*Esc;
+      -beta_sc*c_sc*Ssc*(Asc+Isc1)/(Ssc+Esc+Asc+Isc1+Isc2);
+      beta_sc*c_sc*Ssc*(Asc+Isc1)/(Ssc+Esc+Asc+Isc1+Isc2)-1/tau1*Esc;
       (1-a)/tau1*Esc-gamma_a*Asc;
       a/tau1*Esc-1/tau2*Isc1;
       1/tau2*Isc1-q_sc*Isc2;
